@@ -1,0 +1,5 @@
+Initial release of Koydo Vietnam High School Graduation Exam Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

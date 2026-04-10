@@ -1,0 +1,45 @@
+// Vietnam High School Graduation Exam Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM082",
+  slug: "vietnam-high-school-graduation-exam",
+  name: "Vietnam High School Graduation Exam",
+  fullName: "Thi tot nghiep THPT",
+  alias: "Thi tot nghiep THPT",
+  family: "Vietnam National Exam",
+  category: "School exams",
+  subcategory: "Graduation + admissions input",
+  country: "Vietnam",
+  region: "Southeast Asia",
+  languages: ["Vietnamese"],
+  estimatedAnnualTakers: "very large",
+  testingWindow: "Jun-Jul",
+  schedulePattern: "Annual",
+  ageGroup: "17-19",
+  targetUser: "Secondary student",
+  delivery: "Paper/computer pilots",
+  questionTypes: ["Objective + essay"],
+  adaptivity: "Linear",
+  sections: "Math, literature, foreign language + electives",
+  scoringMode: "Score-based",
+  essayOrSpeaking: "Literature essay",
+  ipRisk: "Low",
+  contentReuse: "school_subjects",
+  uiEngine: "paper_subjective_objective",
+  monetizationPotential: "High",
+  tier: "Tier 3",
+  launchWave: "Wave 5",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "High",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "vi",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
